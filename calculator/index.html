@@ -5,6 +5,7 @@
    <!--      <link rel="stylesheet" type="text/css" href="../../project_assignment_4/forms/forms.css">
         <link rel="stylesheet" type="text/css" href="../buttons/button.css"> -->
         <link rel="stylesheet" type="text/css" href="calculator.css"/>
+        <script async type="text/javascript" src="./js/calculator.js"></script>
     </head>
     <body>
         <div class="wrapper">
@@ -12,25 +13,25 @@
             <div id="calculator">
                 <div id="top">
                     <button class="clear button">Clear</button>
-                    <input type="text" value="1">
+                    <input id="screen" type="text">
                 </div>
                 <div id="bottom">
-                    <button class="button">7</button>
-                    <button class="button">8</button>
-                    <button class="button">9</button>
-                    <button class="button operation">+</button>
-                    <button class="button">4</button>
-                    <button class="button">5</button>
-                    <button class="button">6</button>
-                    <button class="button operation">-</button>
-                    <button class="button">1</button>
-                    <button class="button">2</button>
-                    <button class="button">3</button>
-                    <button class="button operation">&divide;</button>
-                    <button class="button">0</button>
-                    <button class="button">.</button>
+                    <button class="button to-screen" value="7">7</button>
+                    <button class="button to-screen" value="8">8</button>
+                    <button class="button to-screen" value="9">9</button>
+                    <button class="button to-screen operation" value="+">+</button>
+                    <button class="button to-screen" value="4">4</button>
+                    <button class="button to-screen" value="5">5</button>
+                    <button class="button to-screen" value="6">6</button>
+                    <button class="button to-screen operation" value="-">-</button>
+                    <button class="button to-screen" value="1">1</button>
+                    <button class="button to-screen" value="2">2</button>
+                    <button class="button to-screen" value="3">3</button>
+                    <button class="button to-screen operation" value="/">&divide;</button>
+                    <button class="button to-screen" value="0">0</button>
+                    <button class="button to-screen" value=".">.</button>
                     <button class="button equals">=</button>
-                    <button class="button operation">&times;</button>
+                    <button class="button to-screen operation" value="*">&times;</button>
                 </div>
             </div>
         </div>
